@@ -1,7 +1,7 @@
 @startuml
 title Gestion des congés - Cas d'Utilisation
 left to right direction
-actor Employés as U
+actor Personnels as U
 actor Administrateur as A
 
 rectangle "pkg_Gestion_des_congés" {
@@ -10,7 +10,7 @@ rectangle "pkg_Gestion_des_congés" {
     usecase UC3 as "Modifier un congé demandé"
     usecase UC4 as "Supprimer un congé demandé"
     
-    usecase UC5 as "Voir toutes les congés des employés"
+    usecase UC5 as "Voir toutes les congés des Personnels et les statistiques"
 
 }
 
